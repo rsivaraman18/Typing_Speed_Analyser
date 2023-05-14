@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page </title>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/mystyle.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+           <h2 id="title"> Typing Skill Analyser </h2>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <h3 class="title1">Don’t practice until you get it right. <br> Practice until you can’t get it wrong</h2>   
+        </div>
+       <hr>
+    </div>
+
+    <div class="container -fluid">
+        <div class="d-flex justify-content-center">
+            <h3 class="mytext1"> Type the sentence </h3>
+        </div>
+
+        <div class="col-md-11 title3">
+            <!-- {{paradata[0][0]}}      -->
+            {{paradata[0]}} 
+                  
+        </div>
+        
+        <form action="/result" method="POST" required>
+            <div class="col-md-11 title3">
+                <textarea name="utyped" id="" cols="100" rows="10"  placeholder="Your time started.. Start typing "></textarea>
+
+                <div class="d-flex justify-content-center">
+                    <input type="submit" value="Submit test" class="btn btn-success btn-lg">
+                </div>
+            </div>
+
+        </form>
+        
+        
+        <hr>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
