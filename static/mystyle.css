@@ -1,0 +1,61 @@
+body{
+    background-image:url(pic1.jpg);
+    background-size:cover;
+    
+}
+
+#title{
+    color:rgb(16, 82, 115);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+.title1{
+    color:rgb(156, 14, 78);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.title3{
+    color:rgb(156, 14, 78);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: blanchedalmond;
+   
+
+}
+
+
+.mytext{
+    color:rgb(16, 82, 115);
+}
+
+#name{
+    width: 200px;
+    height: 40px;
+    background-color: blanchedalmond;
+    color:rgb(156, 14, 78) ;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: medium;
+    margin-bottom: 14px;
+}
+
+.mytext1{
+    color:rgb(16, 82, 115);
+}
+
+#btn1,#btn2{
+    margin-top: 20px;
+   
+}
+
+#btn1{
+    margin-right: 175px;
+}
+
+#btn2{
+    margin-right: 40px;
+}
