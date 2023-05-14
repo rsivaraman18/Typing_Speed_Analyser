@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Typing Page </title>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/mystyle.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+           <h2 id="title"> Typing Skill Analyser </h2>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <h3 class="title1">Don’t practice until you get it right. <br> Practice until you can’t get it wrong</h2>   
+        </div>
+       <hr>
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="col-md-4" >
+            <img src="../static/type1.gif" alt="" srcset="" width="400px">
+        </div>
+        
+        <div class="col-md-4 col align-self-center" >
+            <h3 class="mytext">Are You Ready to analyse ? </h3>
+            <div class="d-flex justify-content-center">
+
+                <form action="/test" method="POST" autocomplete="off">
+                    <input type="text" name="name" placeholder="Your Good Name" id="name" required><br>
+                    <input type="submit" value="Let's Start Playing" class="btn btn-success btn-lg" id="blink">
+                </form>
+                
+            </div>
+           
+            
+        </div>
+       
+
+        <div class="col-md-4" id="blue">
+            <img src="../static/type2.gif" alt="" srcset="" width="400px">
+        </div>
+
+    </div>
+    
+            
+    
+    
+</body>
+</html>
